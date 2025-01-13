@@ -25,7 +25,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
         _binding = FragmentLoginBinding.inflate(inflater, container, false)
 
         with(binding) {
-         /*
+
            // Login button click action
             binding.btnLogin.setOnClickListener {
                 validateLoginInputs(mailEditText, passwordEditText)
@@ -39,7 +39,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
                     // Proceed with login logic
                     Toast.makeText(requireContext(), "Login successful!", Toast.LENGTH_SHORT).show()
                     // On successful login, navigate to the HomeFragment
-                    findNavController().navigate(R.id.action_login_to_home)
+                 //   findNavController().navigate(R.id.action_login_to_home)
                 } else {
                     // Validation failed, show a warning
                     Toast.makeText(
@@ -51,7 +51,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
 
             }
 
-          */
+
 
             // Sign up button click action
             binding.btnSignup.setOnClickListener {

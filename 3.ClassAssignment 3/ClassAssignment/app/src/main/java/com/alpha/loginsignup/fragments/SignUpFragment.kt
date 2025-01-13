@@ -33,7 +33,7 @@ class SignUpFragment : Fragment(R.layout.fragment_signup) {
 
         with(binding){
 
-          /*  // Sign up button click action
+            // Sign up button click action
             binding.btnSignup.setOnClickListener {
                 validateInputs(nameEditText, mailEditText, phoneEditText, passwordEditText)
                 val isValid = validateInputs(
@@ -51,15 +51,15 @@ class SignUpFragment : Fragment(R.layout.fragment_signup) {
                     // Proceed to the next screen
                     Toast.makeText(requireContext(), "All inputs are valid!", Toast.LENGTH_SHORT).show()
                     // Navigate to SignUpFragment
-                    findNavController().navigate(R.id.action_signup_to_verify, bundle)
+                  //  findNavController().navigate(R.id.action_signup_to_verify, bundle)
                 } else {
                     // Inputs are invalid, show a warning
                     Toast.makeText(requireContext(), "Please correct the errors", Toast.LENGTH_SHORT).show()
                 }
 
             }
-            
-           */
+
+
 
         }
 
