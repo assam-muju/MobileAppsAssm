@@ -33,7 +33,7 @@ class SignUpFragment : Fragment(R.layout.fragment_signup) {
 
         with(binding){
 
-            // Sign up button click action
+          /*  // Sign up button click action
             binding.btnSignup.setOnClickListener {
                 validateInputs(nameEditText, mailEditText, phoneEditText, passwordEditText)
                 val isValid = validateInputs(
@@ -58,6 +58,8 @@ class SignUpFragment : Fragment(R.layout.fragment_signup) {
                 }
 
             }
+            
+           */
 
         }
 

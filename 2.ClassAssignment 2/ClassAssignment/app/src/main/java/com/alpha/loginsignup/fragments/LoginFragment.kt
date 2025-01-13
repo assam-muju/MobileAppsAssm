@@ -25,7 +25,8 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
         _binding = FragmentLoginBinding.inflate(inflater, container, false)
 
         with(binding) {
-         /*   // Login button click action
+         /*
+           // Login button click action
             binding.btnLogin.setOnClickListener {
                 validateLoginInputs(mailEditText, passwordEditText)
 
@@ -50,11 +51,13 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
 
             }
 
+          */
+
             // Sign up button click action
             binding.btnSignup.setOnClickListener {
                 // Navigate to SignUpFragment
                 findNavController().navigate(R.id.action_login_to_signup)
-            }   */
+            }
         }
 
 
