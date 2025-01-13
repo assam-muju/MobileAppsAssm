@@ -31,7 +31,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
         _binding = FragmentLoginBinding.inflate(inflater, container, false)
 
         with(binding) {
-          /*  // Login button click action
+            // Login button click action
             binding.btnLogin.setOnClickListener {
                 val email = mailEditText.text.toString()
                 val password = passwordEditText.text.toString()
@@ -52,7 +52,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
                 }
             }
 
-           */
+
 
             // Sign up button click action
             binding.btnSignup.setOnClickListener {
