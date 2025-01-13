@@ -61,6 +61,10 @@ dependencies {
     kapt ("androidx.room:room-compiler:2.6.1") // For Kotlin projects
 
 
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
+    implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.8.7")
+
+
 
 
 }
